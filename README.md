@@ -6,7 +6,7 @@
 * Браузер - Google Chrome
 ## Запуск программ
 1. Запустить Docker Desktop и свернуть
-2. Склонировать репозиторий https://github.com/NikitosSpiridonov/Diplome
+2. Склонировать репозиторий https://github.com/NikitosSpiridonov/Diplom
 3. Открыть его в IntelliJ IDEA
 4. Открыть локальный терминал IntelliJ IDEA
 5. В первой вкладке терминала ввести команду docker-compose up - запустится докер-контейнер
