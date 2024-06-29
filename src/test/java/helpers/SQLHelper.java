@@ -19,9 +19,6 @@ public class SQLHelper {
     public static String getStatusLastLineCreditRequestEntity() {
         var codeSQL = "SELECT status FROM credit_request_entity order by created DESC limit 1;";
         var conn = getCoon();
-        var  = runner.query(conn, codeSQL, new ScalarHandler<String>());
-        var codeSQL = "SELECT status FROM credit_request_entity order by created DESC limit 1;";
-        var conn = getCoon();
         var statusLastLineCreditRequestEntity = runner.query(conn, codeSQL, new ScalarHandler<String>());
         return new String(statusLastLineCreditRequestEntity);
     }
