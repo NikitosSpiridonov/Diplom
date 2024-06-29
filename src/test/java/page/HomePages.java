@@ -1,7 +1,7 @@
 package page;
 
 import com.codeborne.selenide.SelenideElement;
-import data.DataHelper;
+import helpers.DataHelper;
 
 import java.time.Duration;
 

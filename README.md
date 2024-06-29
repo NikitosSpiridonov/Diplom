@@ -13,10 +13,10 @@
 ### Запуск приложения
 1. Для тестирования запросов в БД MySQL запустите приложение aqa-shop.jar:
 
-   java -jar ./artifacts/aqa-shop.jar
+   java -DdbUrl=jdbc:mysql://localhost:3306/app -DdbUser=app -DdbPass=pass -jar "./artifacts/aqa-shop.jar"
 2. Для тестирования запросов в БД PostgreSQL запустите приложение с указанными параметрами:
 
-   java -jar "C:\Testirovchik\Diplome\artifacts\aqa-shop.jar" -Dspring.datasource.url=jdbc:postgresql://localhost:5432/db -Dspring.datasource.username=app -Dspring.datasource.password=pass
+   java -DdbUrl=jdbc:postgresql://localhost:5432/db -DdbUser=app -DdbPass=pass -jar "./artifacts/aqa-shop.jar"
 ### Запуск автотестов
 1. Для запуска автотестов с проверкой БД MySQL выполните команду:
 

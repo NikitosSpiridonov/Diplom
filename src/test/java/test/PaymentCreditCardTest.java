@@ -1,13 +1,13 @@
 package test;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
-import data.SQLHelper;
+import helpers.SQLHelper;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
 import page.HomePages;
 
 import static com.codeborne.selenide.Selenide.open;
-import static data.SQLHelper.cleanDatabase;
+import static helpers.SQLHelper.cleanDatabase;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PaymentCreditCardTest {
